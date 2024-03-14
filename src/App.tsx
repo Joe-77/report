@@ -12,10 +12,10 @@ export default function App() {
   });
 
   return (
-    <div className="bg-[#46617b] flex flex-col gap-10 lg:flex-row items-center lg:justify-between md:px-28 py-16">
+    <div className="bg-[#46617b] flex flex-col-reverse gap-10  items-center justify-between md:px-28 py-16">
       {myData?.map((e: any, id: number) => (
-        <div ref={component} className="w-[100%]">
-          <div className="w-full min-h-screen bg-[#46617b]">
+        <div ref={component} className="w-[100%] m-auto">
+          <div className="w-full min-h-screen bg-[#46617b] flex justify-center w-full">
             <div
               key={id}
               className=" bg-white container lg:w-1/2 pt-5 pb-16 mx-7 px-10 min-h-[70vh]"

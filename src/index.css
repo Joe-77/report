@@ -1,8 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Modern+Antiqua&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Modern+Antiqua&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
 
 table {
   width: 100%;
@@ -10,5 +9,8 @@ table {
 }
 table td {
   padding: 10px;
-  
+}
+#container {
+  display: flex;
+  justify-content: center;
 }
